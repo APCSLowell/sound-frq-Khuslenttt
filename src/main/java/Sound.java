@@ -41,7 +41,7 @@ public class Sound
   {
     /* to be implemented in part (b) */
     int count = 0;
-    while(samples[i] == 0){
+    while(samples[count] == 0){
       count++;
     }
     int [] newSamples = new int[samples.length - count];
